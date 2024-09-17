@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url(trophies\ and\ plaques.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#menu-title{
+    font-size: 180px;
+    text-align: center;
+}
+
+#titlebreak{
+height: 10px;
+    background-color: aqua;
+    border:solid aqua;
+}
+
+.menu-bg{
+background:rgba(255, 185, 7,0.5);
+margin-right:10%;
+margin-left: 10%;
+}
+
+.menu-item{
+    display: inline-flex;
+    width:100%;
+    margin-bottom: 5%;
+}
+
+.item-name{
+    font-size:80px;
+}
+
+.item-desc{
+    font-size:50px;
+}
+
+.item-price{
+    font-size:80px;
+   margin-left:auto;
+   margin-right:10%;
+}
+
+#drink-title{
+    font-size:90px;
+    text-align:center;
+}
+
+#drink-title-break{
+    height:10px;
+    background-color: blue;
+    border:solid blue;
+}
+
+#dessert-title{
+    font-size:90px;
+    text-align:center;
+}
+
+#dessert-title-break{
+    height:10px;
+    background-color: mediumorchid;
+    border:solid mediumorchid;
+}
