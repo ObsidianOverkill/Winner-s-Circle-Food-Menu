@@ -13,12 +13,12 @@ body{
 }
 
 #menu-title{
-    font-size: 180px;
+    font-size: 4rem;
     text-align: center;
 }
 
 #titlebreak{
-height: 10px;
+height:0.5em;
     background-color: aqua;
     border:solid aqua;
 }
@@ -36,37 +36,37 @@ margin-left: 10%;
 }
 
 .item-name{
-    font-size:80px;
+    font-size:2em;
 }
 
 .item-desc{
-    font-size:50px;
+    font-size:1.3em;
 }
 
 .item-price{
-    font-size:80px;
+    font-size:2em;
    margin-left:auto;
    margin-right:10%;
 }
 
 #drink-title{
-    font-size:90px;
+    font-size:4em;
     text-align:center;
 }
 
 #drink-title-break{
-    height:10px;
+    height:0.5em;
     background-color: blue;
     border:solid blue;
 }
 
 #dessert-title{
-    font-size:90px;
+    font-size:4em;
     text-align:center;
 }
 
 #dessert-title-break{
-    height:10px;
+    height:0.5em;
     background-color: mediumorchid;
     border:solid mediumorchid;
 }
