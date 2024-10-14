@@ -2,71 +2,63 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
 
 body{
-    background: url(trophies\ and\ plaques.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+   max-width: 100%;
+   background-color:lemonchiffon;
 }
 
-#menu-title{
-    font-size: 4rem;
-    text-align: center;
-}
-
-#titlebreak{
-height:0.5em;
-    background-color: aqua;
-    border:solid aqua;
-}
-
-.menu-bg{
-background:rgba(255, 185, 7,0.5);
-margin-right:10%;
-margin-left: 10%;
-}
-
-.menu-item{
-    display: inline-flex;
+.navbar{
     width:100%;
-    margin-bottom: 5%;
+    padding:14px 16px;
+    position: fixed;
+    top:0;
+    background-color: lemonchiffon;
 }
 
-.item-name{
-    font-size:2em;
+.navbar ul{
+display:flex;
+justify-content: center;
+justify-content:space-evenly;
 }
 
-.item-desc{
-    font-size:1.3em;
+.navbar li{
+    list-style: none;
 }
 
-.item-price{
-    font-size:2em;
-   margin-left:auto;
-   margin-right:10%;
+.navbar a{
+    text-decoration: none;
+    color:black;
 }
 
-#drink-title{
-    font-size:4em;
-    text-align:center;
+/*hero*/
+
+header{
+   background-color: ivory; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   height:100vh;
 }
 
-#drink-title-break{
-    height:0.5em;
-    background-color: blue;
-    border:solid blue;
+.hero-text p{
+    max-width:25rem;
 }
 
-#dessert-title{
-    font-size:4em;
-    text-align:center;
+.hero-text button{
+    border-radius: 0.2rem;
+    padding:0.2rem;
+    margin-top:0.5rem;
+    font-size: 1.3rem;
 }
 
-#dessert-title-break{
-    height:0.5em;
-    background-color: mediumorchid;
-    border:solid mediumorchid;
+/*food-menu-grid*/
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
 }
+
